@@ -1,0 +1,56 @@
+/* Reset Default Setting*/
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+
+}
+
+
+.logo-wrap img{
+   width: 80px;
+   height: 50px;
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+
+    background-color: brown;
+    transition: 0.5s ease;
+    
+}
+.logo-wrap .logo{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger-wrap{
+    display: none;
+}
+
+.nav-items .nav-links{
+    padding-top: 50px;
+
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav-items .nav-links:hover{
+    background-color: white;
+    color: brown;
+    border-radius: 5px;
+}

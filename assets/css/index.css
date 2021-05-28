@@ -1,0 +1,172 @@
+/* Reset Default Setting*/
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./../img/grills.jpg);
+    background-repeat: no-repeat;
+    size: 100px;
+
+}
+
+
+.logo-wrap img{
+   width: 80px;
+   height: 60px;
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    /* background-color: brown; */
+    background: rgb(245, 235, 220);
+    transition: 0.5s ease;
+    align-items: center;
+    
+}
+.logo-wrap .logo{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-signup {
+    margin-right: 15px;
+    
+}
+
+.fa-shopping-cart {
+    color: #5D1201;
+}
+
+.burger-logo {
+    height: 40px;
+}
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5D1201;
+    font-weight: bold;
+}
+
+.brand-link p {
+    margin-left: 5px;
+}
+
+.hamburger-wrap{
+    display: none;
+}
+
+.nav-items .nav-links{
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5D1201;
+    font-weight: bold;
+}
+
+.nav-items .nav-links:hover{
+    background-color: white;
+    color: brown;
+   
+    border-radius: 5px;
+}
+
+.hero {
+    height:450px;
+    background: #d32600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-box {
+    padding: 50px;
+}
+
+.hero-text {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    height: 35px;
+    padding: 10px;
+    background: white;
+    color: #d32600;
+    border: 1px solid #d32600;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.intro-box {
+    display: flex;
+    margin: 40px;
+}
+
+
+/* INTRODUCTION SESSION */
+.intro{
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+
+.intro p{
+    font-size: 30px
+}
+
+.hey {
+    background-color: white;
+    padding: 10px;
+    
+    color: black;
+    border-radius: 15px 15px 15px 0px;
+}
+/* BUTTON SECTION */
+.submit-button {
+    align-content: center;
+    font-size: 18px ;
+    background-color: brown;
+    color:white;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 100;
+    
+}
+
+.submit-button:hover {
+    font-weight: 600;
+
+}
+
+/* FOOTER SECTION */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:#d32600;
+    color: white;
+    text-align: center;
+}
+
