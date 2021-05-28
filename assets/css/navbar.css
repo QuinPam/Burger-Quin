@@ -8,14 +8,13 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: white;
-
+    size: 100px;
 }
 
 
 .logo-wrap img{
    width: 80px;
-   height: 50px;
+   height: 60px;
   
 }
 
@@ -23,16 +22,40 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 25px 100px;
-
-    background-color: brown;
+    padding: 10px 50px;
+    background: rgb(245, 235, 220);
     transition: 0.5s ease;
+    align-items: center;
     
 }
 .logo-wrap .logo{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
+}
+
+.btn-signup {
+    margin-right: 15px;
+}
+
+.fa-shopping-cart {
+    color: #5D1201;
+}
+
+.burger-logo {
+    height: 40px;
+}
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5D1201;
+    font-weight: bold;
+}
+
+.brand-link p {
+    margin-left: 5px;
 }
 
 .hamburger-wrap{
@@ -40,17 +63,16 @@ nav{
 }
 
 .nav-items .nav-links{
-    padding-top: 50px;
-
-    font-size: 18px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 5px;
     text-decoration: none;
-    color: white;
-    
+    color: #5D1201;
+    font-weight: bold;
 }
 
 .nav-items .nav-links:hover{
     background-color: white;
     color: brown;
+   
     border-radius: 5px;
 }
