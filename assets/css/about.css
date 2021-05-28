@@ -4,31 +4,39 @@
     box-sizing: border-box;
 }
 
-main{
-    text-align-last: center;
-    color: black;
-
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 100px;
 }
 
-.about {
-    display: flex;
-    margin-top: 30px;
-    align-items: center
+.about-banner {
+    height:150px;
+    background: #5D1201;
+    padding: 2%;
 }
 
-.about-image, img{
-    width: 50%;
-    height: 100%;
-    border-radius: 50%;
+.about-banner, h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .about-description {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f5ebdc;
+    height: 450px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
     line-height: 1.5;
-    padding: 50px;
-    align-content: left;
+    font-size: 18px;
 }
 
+.contact {
+    margin-top: 3%;
+}
 
  /* MEDIA QUERY */
 @media (max-width: 900px){
@@ -43,7 +51,6 @@ main{
         cursor: pointer;
         font-size: 25px;
         color: white;
-
     }
     
     .nav-items{
