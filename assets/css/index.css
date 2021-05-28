@@ -18,6 +18,7 @@ body{
   
 }
 
+/* NAVBAR SECTION*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -105,13 +106,12 @@ nav{
 }
 
 
+/* INTRODUCTION SESSION */
 .intro-box {
     display: flex;
     margin: 40px;
 }
 
-
-/* INTRODUCTION SESSION */
 .intro{
     width: 50%;
     color: white;
@@ -132,6 +132,8 @@ nav{
     color: black;
     border-radius: 15px 15px 15px 0px;
 }
+
+
 /* BUTTON SECTION */
 .submit-button {
     align-content: center;
@@ -151,15 +153,78 @@ nav{
 
 }
 
+/* MEDIA QUERY */
+@media (max-width: 900px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px ;
+    }
+
+    .hamburger-wrap {
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+        color: white;
+
+    }
+    
+    .nav-items{
+        display: none  ;
+    }
+
+    .open-nav-items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .nav-links{
+        text-align: right;
+    }
+    
+}
+
+
+/* PRODUCT SECTION */
+.products {
+    height: 300px;
+    background-color: #f5ebdc;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.row-2 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.row-1 img {
+    width: 100px;
+    height: 35px;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+
 /* FOOTER SECTION */
-.footer {
-    position: fixed;
+footer {
+
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 200px;
     background-color:#d32600;
     color: white;
-    text-align: center;
 }
 

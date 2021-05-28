@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-main {
+.box-section {
     margin-left: 90px;
     margin-right: 90px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +41,7 @@ main {
 }
 
 .btn-add {
-    background: brown;
+    background: #d32600;
     color: white;
     height: 30px;
     border: none;
@@ -49,7 +49,7 @@ main {
 }
 
 .fas {
-    color: brown;
+    color: #d32600;
 }
 
  /* MEDIA QUERY */
